@@ -1,0 +1,102 @@
+{
+  "meetings": [
+    {
+      "name": "Meeting 1",
+      "hostName": "John",
+      "participants": [
+        "Jill",
+        "Pete",
+        "Kate",
+        "Miles"
+      ],
+      "bookingDate": "11/11/2021",
+      "bookingStartTime": "09:00",
+      "bookingEndTime": "9:30",
+      "id": 1
+    },
+    {
+      "name": "Room 101",
+      "hostName": "Kyle",
+      "participants": [
+        "Jack",
+        "Grey",
+        "Wei",
+        "Ling"
+      ],
+      "bookingDate": "11/12/2021",
+      "bookingStartTime": "09:30",
+      "bookingEndTime": "10:0",
+      "id": 2
+    },
+    {
+      "name": "Room 101",
+      "hostName": "Myles",
+      "participants": [
+        "Kate",
+        "Jey",
+        "Will",
+        "Syuan"
+      ],
+      "bookingDate": "11/12/2021",
+      "bookingStartTime": "10:00",
+      "bookingEndTime": "10:30",
+      "id": 3
+    },
+    {
+      "name": "Room 101",
+      "hostName": "Chris",
+      "participants": [
+        "Nang",
+        "Let",
+        "Sal",
+        "Ming"
+      ],
+      "bookingDate": "11/11/2021",
+      "bookingStartTime": "10:00",
+      "bookingEndTime": "10:30",
+      "id": 4
+    },
+    {
+      "name": "Room 101",
+      "hostName": "Test",
+      "participants": [
+        "Liss",
+        "Loss",
+        "Luss",
+        "Less"
+      ],
+      "bookingDate": "11/05/2021",
+      "bookingStartTime": "10:00",
+      "bookingEndTime": "10:30",
+      "id": 5
+    },
+    {
+      "name": "Room 102",
+      "hostName": "Gill",
+      "participants": [
+        "Hill",
+        "Yow",
+        "Till",
+        "Row"
+      ],
+      "bookingDate": "11/12/2021",
+      "bookingStartTime": "10:00",
+      "bookingEndTime": "10:30",
+      "id": 6
+    },
+    {
+      "name": "Room 103",
+      "hostName": "Jane",
+      "participants": [
+        "Jules",
+        "Peyn",
+        "Kit",
+        "Yull"
+      ],
+      "bookingDate": "11/12/2021",
+      "bookingStartTime": "10:00",
+      "bookingEndTime": "10:30",
+      "id": 7
+    }
+  ]
+}
