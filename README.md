@@ -2,7 +2,7 @@
 
 ## Project setup
 ```
-yarn install && yarn add -g json-serve
+yarn install && yarn add global json-server
 ```
 
 ### Compiles and hot-reloads for development
