@@ -1,0 +1,173 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MeetingForm.vue test suite should match with the snapshot 1`] = `
+<v-row
+  justify="center"
+>
+  <v-dialog
+    max-width="600px"
+    persistent=""
+  >
+    <v-card>
+      <v-card-title>
+        <span
+          class="text-h5"
+        >
+          Create Meeting
+        </span>
+      </v-card-title>
+       
+      <v-card-text>
+        <v-container>
+          <v-row>
+            <v-col
+              cols="12"
+            >
+              <v-text-field
+                label="Room Name"
+                rules="value => {
+        const error = \\"This Field is required.\\";
+
+        if (value instanceof Array && value.length == 0) {
+          return error;
+        }
+
+        return !!value || error;
+      }"
+              />
+            </v-col>
+             
+            <v-col
+              cols="12"
+            >
+              <v-combobox
+                hide-selected=""
+                label="Host Name"
+                persistent-hint=""
+                rules="value => {
+        const error = \\"This Field is required.\\";
+
+        if (value instanceof Array && value.length == 0) {
+          return error;
+        }
+
+        return !!value || error;
+      }"
+                small-chips=""
+              />
+            </v-col>
+             
+            <v-col
+              cols="12"
+            >
+              <v-combobox
+                hide-selected=""
+                label="Participants"
+                multiple=""
+                persistent-hint=""
+                rules="value => {
+        const error = \\"This Field is required.\\";
+
+        if (value instanceof Array && value.length == 0) {
+          return error;
+        }
+
+        return !!value || error;
+      }"
+                small-chips=""
+              />
+            </v-col>
+             
+            <v-col
+              cols="12"
+              sm="4"
+            >
+              <v-menu
+                max-width="290px"
+                min-width="auto"
+                offset-y=""
+              >
+                 
+                <v-date-picker
+                  no-title=""
+                />
+              </v-menu>
+            </v-col>
+             
+            <v-col
+              cols="12"
+              sm="4"
+            >
+              <v-menu
+                max-width="290px"
+                min-width="290px"
+                nudge-right="40"
+                offset-y=""
+                transition="scale-transition"
+              >
+                 
+                <!---->
+              </v-menu>
+            </v-col>
+             
+            <v-col
+              cols="12"
+              sm="4"
+            >
+              <v-menu
+                max-width="290px"
+                min-width="290px"
+                nudge-right="40"
+                offset-y=""
+                transition="scale-transition"
+              >
+                 
+                <!---->
+              </v-menu>
+            </v-col>
+             
+            <v-col
+              cols="12"
+              style="display: none;"
+            >
+              <v-snackbar
+                absolute=""
+                bottom=""
+                color="error"
+                left=""
+                text=""
+                timeout="-1"
+                value="true"
+              >
+                
+                
+              
+              </v-snackbar>
+            </v-col>
+          </v-row>
+        </v-container>
+      </v-card-text>
+       
+      <v-card-actions>
+        <v-spacer />
+         
+        <v-btn
+          color="blue darken-1"
+          text=""
+        >
+          
+          Close
+        
+        </v-btn>
+         
+        <v-btn
+          color="blue darken-1"
+          text=""
+        >
+           Save 
+        </v-btn>
+      </v-card-actions>
+    </v-card>
+  </v-dialog>
+</v-row>
+`;

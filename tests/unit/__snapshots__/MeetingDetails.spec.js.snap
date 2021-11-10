@@ -1,0 +1,204 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MeetingDetails.vue test suite should match with the snapshot 1`] = `
+<v-container
+  class="grey darken-4"
+  fluid=""
+  style="height: calc(100vh - 50px);"
+>
+  <v-row>
+    <v-col
+      class="d-flex justify-center align-center"
+      cols="12"
+      sm="8"
+      style="height: calc(100vh - 100px);"
+    >
+      <v-avatar
+        class="white--text"
+        color="primary"
+        size="128"
+        style="font-size: 3rem;"
+      />
+    </v-col>
+     
+    <v-col
+      class="d-flex justify-center align-center"
+      cols="12"
+      sm="4"
+    >
+      <v-card
+        elevation="2"
+      >
+        <v-card-text>
+          <div
+            class="text-h6 mb-6"
+          >
+            Meeting Details
+          </div>
+           
+          <v-row
+            justify="center"
+          >
+            <v-expansion-panels
+              multiple=""
+            >
+              <v-expansion-panel>
+                <v-expansion-panel-header
+                  hide-actions=""
+                  ripple=""
+                >
+                  Info
+                </v-expansion-panel-header>
+                 
+                <v-expansion-panel-content>
+                  <v-row>
+                    <v-col
+                      cols="12"
+                      sm="5"
+                    >
+                      <v-card-subtitle
+                        class="pa-0 text--secondary"
+                      >
+                        
+                        Room Name
+                      
+                      </v-card-subtitle>
+                       
+                      <v-card-text
+                        class="text--primary pb-0"
+                      >
+                        <div
+                          id="roomName"
+                        >
+                          
+                        </div>
+                      </v-card-text>
+                    </v-col>
+                     
+                    <v-col
+                      cols="12"
+                      sm="7"
+                    >
+                      <v-card-subtitle
+                        class="pa-0 text--secondary"
+                      >
+                        
+                        Host
+                      
+                      </v-card-subtitle>
+                       
+                      <v-card-text
+                        class="text--primary pb-0"
+                      >
+                        <div
+                          id="hostName"
+                        >
+                          
+                        </div>
+                      </v-card-text>
+                    </v-col>
+                  </v-row>
+                   
+                  <v-row>
+                    <v-col
+                      cols="12"
+                      sm="5"
+                    >
+                      <v-card-subtitle
+                        class="pa-0 text--secondary"
+                      >
+                        
+                        Date
+                      
+                      </v-card-subtitle>
+                       
+                      <v-card-text
+                        class="text--primary pb-0"
+                      >
+                        <div
+                          id="bookingDate"
+                        >
+                          
+                        </div>
+                      </v-card-text>
+                    </v-col>
+                     
+                    <v-col
+                      cols="12"
+                      sm="7"
+                    >
+                      <v-card-subtitle
+                        class="pa-0 text--secondary"
+                      >
+                        
+                        Time
+                      
+                      </v-card-subtitle>
+                       
+                      <v-card-text
+                        class="text--primary pb-0"
+                      >
+                        <div>
+                          <span
+                            id="bookingStartTime"
+                          >
+                            
+                          </span>
+                          
+                          -
+                          
+                          <span
+                            id="bookingEndTime"
+                          >
+                            
+                            
+                          </span>
+                        </div>
+                      </v-card-text>
+                    </v-col>
+                  </v-row>
+                </v-expansion-panel-content>
+              </v-expansion-panel>
+               
+              <v-expansion-panel>
+                <v-expansion-panel-header
+                  hide-actions=""
+                  ripple=""
+                >
+                  Participants
+                </v-expansion-panel-header>
+                 
+                <v-expansion-panel-content>
+                  <v-list
+                    subheader=""
+                  >
+                    <v-subheader>
+                      In the meeting
+                    </v-subheader>
+                     
+                  </v-list>
+                </v-expansion-panel-content>
+              </v-expansion-panel>
+            </v-expansion-panels>
+          </v-row>
+           
+          <v-row>
+            <v-col
+              cols="12"
+            >
+              <v-btn
+                block=""
+                color="error"
+              >
+                
+                Leave meeting
+              
+              </v-btn>
+            </v-col>
+          </v-row>
+        </v-card-text>
+      </v-card>
+    </v-col>
+  </v-row>
+</v-container>
+`;

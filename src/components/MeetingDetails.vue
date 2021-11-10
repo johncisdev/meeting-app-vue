@@ -32,7 +32,7 @@
                           Room Name
                         </v-card-subtitle>
                         <v-card-text class="text--primary pb-0">
-                          <div>{{ meeting.name }}</div>
+                          <div id="roomName">{{ meeting.name }}</div>
                         </v-card-text>
                       </v-col>
                       <v-col cols="12" sm="7">
@@ -40,7 +40,7 @@
                           Host
                         </v-card-subtitle>
                         <v-card-text class="text--primary pb-0">
-                          <div>{{ meeting.hostName }}</div>
+                          <div id="hostName">{{ meeting.hostName }}</div>
                         </v-card-text>
                       </v-col>
                     </v-row>
@@ -51,7 +51,7 @@
                           Date
                         </v-card-subtitle>
                         <v-card-text class="text--primary pb-0">
-                          <div>{{ meeting.bookingDate }}</div>
+                          <div id="bookingDate">{{ meeting.bookingDate }}</div>
                         </v-card-text>
                       </v-col>
                       <v-col cols="12" sm="7">
@@ -60,8 +60,13 @@
                         </v-card-subtitle>
                         <v-card-text class="text--primary pb-0">
                           <div>
-                            {{ meeting.bookingStartTime }} -
-                            {{ meeting.bookingEndTime }}
+                            <span id="bookingStartTime">{{
+                              meeting.bookingStartTime
+                            }}</span>
+                            -
+                            <span id="bookingEndTime">
+                              {{ meeting.bookingEndTime }}</span
+                            >
                           </div>
                         </v-card-text>
                       </v-col>
@@ -126,7 +131,6 @@ export default {
   },
   async created() {
     await this.$store.dispatch("getMeeting", this.$route.params.meetingId);
-    console.log(this.$store.state.data, "this.$store.state.data");
     this.meeting = this.$store.state.data[0];
     const host = this.$store.state.data[0].hostName.split(" ");
     this.hostName =
