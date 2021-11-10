@@ -146,6 +146,7 @@ export default {
   methods: {
     openFormDialog() {
       this.isOpenFormDialog = !this.isOpenFormDialog;
+      this.selected = {};
     },
     showSnackbar(message) {
       this.message = message;
